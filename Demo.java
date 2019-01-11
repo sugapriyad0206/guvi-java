@@ -9,10 +9,10 @@ Scanner sc=new Scanner(System.in);
 int n;
 n=sc.nextInt();
 if(n < 0)
-System.out.println(n +" "+"is negative");
+System.out.println("Negative");
 if(n > 0)
-System.out.println(n +" "+"is positive");
+System.out.println("Positive");
 if(n == 0)
-System.out.println("Given value is zero");
+System.out.println("Zero");
 }
 }
